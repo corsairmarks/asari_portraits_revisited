@@ -1,12 +1,33 @@
 # Overview
 
-Are you a fanatic xenophile when it comes to blue aliens? Do you wish Silfae's "Animated Asari Portraits" mod was up-to-date?  This mod is for you! With this mod, now you can play the Asari Republics as designed and use all the gameplay elemts for your own empires.
+Are you a fanatic xenophile when it comes to blue aliens? Do you wish Silfae's "Animated Asari Portraits" mod was up-to-date?  This mod is for you! With this mod, now you can play the Asari Republics as designed and use all the gameplay elements for your own empires.
 
-There are lots of other mods which contain these portraits, so why should you choose this one?  Perhaps you prefer Silfae's art style, or you want to play her version of the Asari Republics - content which this mod again makes playable.  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
+There are lots of other mods which contain these portraits, so why should you choose this one? Silfae's art style meshes well with Stellaris, or maybe you want to play her version of the Asari Colonies - content which this mod again makes playable.  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
 
 # Changes
 
 All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.0.*, the latest version when this was written.  Updates include:
+
+* Code now sets any leader using the Asari portrait to have `gender = female`
+    * All your Asari-portrait leaders will show as Female in the UI and use female pronouns (she/her/hers)
+    * Events (hidden) fire on game start, leaders spawning, when elections begin
+* Improve Asari portrait definitions and selectors
+    * Clothing selectors influenced by Pop job
+    * Fix syntax error in Asari mesh definitions
+    * Reduce duplication in portrait entity definitions, mesh definitions, and asset selectors
+* Update the namelist to account for all built-in army types, remove obsolete entries; Army names more lore-friendly
+* Add custom trait "Asari Longevity" to the Asari species class
+    * This trait makes their leaders begin at an older age
+    * Add bonus lifespan to compensate for their older starting age
+    * Automatically given to any species designed with the Asari portraits for free
+    * Enhanced art from original trait
+* Replace original Asari trait with "Cellular Regeneration" that grants the majority of the age boost (and leader XP penalty) and is available for any species to use
+* Update prescripted empire for 3.0
+    * Now has Origin: Prosperous Unification
+    * Some negatives of the original Asari trait had corresponding negative traits, so Deviants and Slow Learners were added instead
+    * Added Unruly - Asari government is extremely decentralized and "young" Asari tend to be restless and rebellious, it seemed to fit
+    * Can randomly spawn
+    * Gains Psionic Theory for free
 
 ## Compatibility
 
@@ -28,15 +49,7 @@ This mod should be added before the game has started.  If you remove it from a g
 
 ## Known Issues
 
-This mod overwrites XXX from the base game related to XXX.  Expect to see XXX line in error.log like this:
-
-```
-
-```
-
-### City Graphics
-
-Silfae's original mod does not include graphics for ecumenopoleis, so they will fall back to the XXX graphical culture. If anyone knows of a mod that provides said stage-6 city picyure, I would be happy to investigate getting permission to reuse the graphics, or add it as a dependency to this one.
+Silfae's original mod does not include graphics for ecumenopoleis, so they will fall back to the Avian graphical culture. If anyone knows of a mod that provides said stage-6 city picture, I would be happy to investigate getting permission to reuse the graphics, or add it as a dependency to this one.
 
 ## Changelog
 

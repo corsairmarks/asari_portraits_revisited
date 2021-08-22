@@ -1,3 +1,78 @@
+[h1]Overview[/h1]
 
+Are you a fanatic xenophile when it comes to blue aliens? Do you wish Silfae's "Animated Asari Portraits" mod was up-to-date?  This mod is for you! With this mod, now you can play the Asari Republics as designed and use all the gameplay elements for your own empires.
+
+There are lots of other mods which contain these portraits, so why should you choose this one? Silfae's art style meshes well with Stellaris, or maybe you want to play her version of the Asari Colonies - content which this mod again makes playable.  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
+
+[h1]Changes[/h1]
+
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.0.*, the latest version when this was written.  Updates include:
+
+[list]
+[*]Code now sets any leader using the Asari portrait to have [b]gender = female[/b]
+    [list]
+    [*]All your Asari-portrait leaders will show as Female in the UI and use female pronouns (she/her/hers)
+    [*]Events (hidden) fire on game start, leaders spawning, when elections begin
+    [/list]
+[*]Improve Asari portrait definitions and selectors
+    [list]
+    [*]Clothing selectors influenced by Pop job
+    [*]Fix syntax error in Asari mesh definitions
+    [*]Reduce duplication in portrait entity definitions, mesh definitions, and asset selectors
+    [/list]
+[*]Update the namelist to account for all built-in army types, remove obsolete entries; Army names more lore-friendly
+[*]Add custom trait "Asari Longevity" to the Asari species class
+    [list]
+    [*]This trait makes their leaders begin at an older age
+    [*]Add bonus lifespan to compensate for their older starting age
+    [*]Automatically given to any species designed with the Asari portraits for free
+    [*]Enhanced art from original trait
+    [/list]
+[*]Replace original Asari trait with "Cellular Regeneration" that grants the majority of the age boost (and leader XP penalty) and is available for any species to use
+[*]Update prescripted empire for 3.0
+    [list]
+    [*]Now has Origin: Prosperous Unification
+    [*]Some negatives of the original Asari trait had corresponding negative traits, so Deviants and Slow Learners were added instead
+    [*]Added Unruly - Asari government is extremely decentralized and "young" Asari tend to be restless and rebellious, it seemed to fit
+    [*]Can randomly spawn
+    [*]Gains Psionic Theory for free
+    [/list]
+[/list]
+
+[h2]Compatibility[/h2]
+
+Compatible with any mod that does not add the same portraits, species class, or art assets.
+
+The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
+
+Not compatible with achievements.
+
+[h3]Dependencies[/h3]
+
+In order for this mod to function, you [b]must[/b] install the following mod and load it before this one:
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=707779361]Animated Asari Portraits[/url] by Silfae
+
+[h3]When to Install[/h3]
+
+This mod should be added before the game has started.  If you remove it from a game in progress, your game may have graphical problems if any species was using the custom portraits.
+
+[h2]Known Issues[/h2]
+
+Silfae's original mod does not include graphics for ecumenopoleis, so they will fall back to the Avian graphical culture. If anyone knows of a mod that provides said stage-6 city picture, I would be happy to investigate getting permission to reuse the graphics, or add it as a dependency to this one.
+
+[h2]Changelog[/h2]
+
+See [url=]Change Notes[/url]
+
+[h2]Source Code[/h2]
+
+Hosted on [url=https://github.com/corsairmarks/asari_portraits_revisited]GitHub[/url]
+
+[h1]Special Thanks[/h1]
+
+I was inspired to extend the original mod when I saw [url=https://steamcommunity.com/profiles/76561198037630876/myworkshopfiles/]Endugu[/url]'s [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1584824947]expansion[/url] of [url=https://steamcommunity.com/profiles/76561198021525667/myworkshopfiles/]Silfae[/url]'s [url=https://steamcommunity.com/workshop/filedetails/?id=881118424]Animated Xirmian Portraits[/url].  Modular mods that require downloading the original mod(s) help give credit where credit is due.
+
+An extra special thanks to Silfae for creating and sharing so many detailed, animated portraits for the community.
 
 [url=https://discord.gg/bHVez2C][img]https://i.imgur.com/4Und3QN.png[/img][/url]

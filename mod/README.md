@@ -2,7 +2,7 @@
 
 Are you a fanatic xenophile when it comes to blue aliens? Do you wish Silfae's "Animated Asari Portraits" mod was up-to-date?  This mod is for you! With this mod, now you can play the Asari Republics as designed and use all the gameplay elements for your own empires.
 
-There are lots of other mods which contain these portraits, so why should you choose this one? Silfae's art style meshes well with Stellaris, or maybe you want to play her version of the Asari Colonies - content which this mod again makes playable.  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
+There are lots of other mods which contain the same or similar portraits portraits, so why should you choose this one? Silfae's art style meshes well with Stellaris, or maybe you want to play her version of the Asari Colonies - content which this mod again makes playable.  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
 
 # Changes
 

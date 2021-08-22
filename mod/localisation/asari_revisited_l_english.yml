@@ -6,4 +6,4 @@
  trait_asari_age_desc: "§LThis species matures more slowly than the most species, but their overall lifespans are much longer.§!\n"
  TRAIT_ASARI_AGE_EFFECT: "Leaders begin between §Y90§! and §Y120§! years of age but live about §G+70§! years longer."
  trait_asari_biology: "Cellular Regeneration"
- trait_asari_biology_desc: "§LThis species evolved extremely robust cellular regeneration that has largely eliminated senescense. Although their biology does not lend additional strength or healing properties, individuals live extraordinarily long lives. They benefit from centuries to hone their skills but typically do so more slowly than shorter-lived sapients.§!"
+ trait_asari_biology_desc: "§LThis species evolved extremely robust cellular regeneration that has largely eliminated senescence. Although their biology does not lend additional strength or healing properties, individuals live extraordinarily long lives. They benefit from centuries to hone their skills but typically do so more slowly than shorter-lived sapients.§!"

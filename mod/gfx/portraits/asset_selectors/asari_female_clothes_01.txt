@@ -1,0 +1,120 @@
+# This is a template which multiple species can use.
+
+asari_female_clothes_01 = {
+	default = "gfx/models/portraits/asari/asari_female_clothes_ruler.dds"
+	game_setup = { #will run with a limited country scope. species and government is set but the country does not actually exist
+		default = "gfx/models/portraits/asari/asari_female_clothes_ruler.dds"
+	}
+	#species scope
+	species = { #generic portrait for a species
+		default = "gfx/models/portraits/asari/asari_female_clothes_ruler.dds"
+	}
+	#pop scope
+	pop = { #for a specific pop
+		default = "gfx/models/portraits/asari/asari_female_clothes_ruler.dds"
+		random = {
+			trigger = {
+				NOR = {
+					# scientist
+					has_job = head_researcher
+					has_job = researcher
+					has_job = dimensional_portal_researcher
+					has_job = brain_drone
+					has_job = calculator
+					has_job = dimensional_portal_researcher_gestalt
+					has_job = fe_archivist
+					has_job = death_chronicler
+					has_job = spawning_drone
+					has_job = replicator
+					has_job = roboticist
+					has_job = evaluator
+					has_job = primitive_warrior
+					has_job = chronicle_drone
+					has_job = primitive_researcher
+					has_job = primitive_researcher_2
+					# military
+					has_job = duelist
+					has_job = enforcer
+					has_job = necromancer
+					has_job = soldier
+					has_job = titan_hunter
+					has_job = patrol_drone
+					has_job = warrior_drone
+					has_job = primitive_warrior
+					has_job = primitive_warrior_2
+				}
+			}
+			list = {
+				"gfx/models/portraits/asari/asari_female_clothes_ruler.dds"
+				"gfx/models/portraits/asari/asari_female_clothes_governer.dds"
+			}
+		}
+		random = {
+			trigger = {
+				OR = {
+					has_job = duelist
+					has_job = enforcer
+					has_job = necromancer
+					has_job = soldier
+					has_job = titan_hunter
+					has_job = patrol_drone
+					has_job = warrior_drone
+					has_job = primitive_warrior
+					has_job = primitive_warrior_2
+				}
+			}
+			list = {
+				"gfx/models/portraits/asari/asari_female_clothes_admiral.dds"
+				"gfx/models/portraits/asari/asari_female_clothes_general.dds"
+			}
+		}
+		"gfx/models/portraits/asari/asari_female_clothes_scientist.dds" = {
+			OR = {
+				has_job = head_researcher
+				has_job = researcher
+				has_job = dimensional_portal_researcher
+				has_job = brain_drone
+				has_job = calculator
+				has_job = dimensional_portal_researcher_gestalt
+				has_job = fe_archivist
+				has_job = death_chronicler
+				has_job = spawning_drone
+				has_job = replicator
+				has_job = roboticist
+				has_job = evaluator
+				has_job = primitive_warrior
+				has_job = chronicle_drone
+				has_job = primitive_researcher
+				has_job = primitive_researcher_2
+			}
+		}
+	}
+	#leader scope
+	leader = { #scientists, generals, admirals, governor, envoy
+		"gfx/models/portraits/asari/asari_female_clothes_scientist.dds" = { leader_class = scientist }
+		"gfx/models/portraits/asari/asari_female_clothes_general.dds" = { leader_class = general }
+		"gfx/models/portraits/asari/asari_female_clothes_admiral.dds" = { leader_class = admiral }
+		"gfx/models/portraits/asari/asari_female_clothes_governer.dds" = {
+			OR = {
+				leader_class = governor
+				leader_class = envoy
+			}
+		}
+	}
+	#leader scope
+	ruler = { #for rulers
+		default = "gfx/models/portraits/asari/asari_female_clothes_ruler.dds"
+		"gfx/models/portraits/asari/asari_female_clothes_ruler.dds" = {
+			owner = {
+				OR = {
+					has_generic_government = yes
+					has_spiritualist_government = yes
+					has_materialist_government = yes
+				}
+			}
+		}
+		"gfx/models/portraits/asari/asari_female_clothes_admiral.dds" = { owner = { has_militarist_government = yes } }
+		"gfx/models/portraits/asari/asari_female_clothes_scientist.dds" = { owner = { has_pacifist_government = yes } }
+		"gfx/models/portraits/asari/asari_female_clothes_governer.dds" = { owner = { has_primitive_government = yes } }
+	}
+}

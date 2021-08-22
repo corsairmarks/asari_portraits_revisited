@@ -1,0 +1,9 @@
+﻿l_english:
+ name_list_ASA1: "$name_list_asarinames$"
+ EMPIRE_DESIGN_asari_colonies: "Asari Colonies"
+ EMPIRE_DESIGN_asari_colonies_desc: "A mono-gender species, the Asari are distinctly feminine in appearance and possess maternal instincts. Their unique physiology, expressed in a millennium-long lifespan and the ability to reproduce with a partner of any gender or species, gives them a conservative yet convivial attitude toward other races.\n\nAsari are naturally predisposed to interact with other intelligent species. On the other hand, their peculiar way of reproducing tends to make their communities plural and highly divergent in attitude and ideologies."
+ trait_asari_age: "Asari Longevity"
+ trait_asari_age_desc: "§LThis species matures more slowly than the most species, but their overall lifespans are much longer.§!\n"
+ TRAIT_ASARI_AGE_EFFECT: "Leaders begin between §Y90§! and §Y120§! years of age but live about §G+70§! years longer."
+ trait_asari_biology: "Cellular Regeneration"
+ trait_asari_biology_desc: "§LThis species evolved extremely robust cellular regeneration that has largely eliminated senescense. Although their biology does not lend additional strength or healing properties, individuals live extraordinarily long lives. They benefit from centuries to hone their skills but typically do so more slowly than shorter-lived sapients.§!"

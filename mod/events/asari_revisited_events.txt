@@ -1,0 +1,103 @@
+namespace = asari_evt
+
+# flag mod as active
+event = {
+	id = asari_evt.13
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		NOT = { has_global_flag = asari_revisited_installed }
+	}
+	immediate = {
+		set_global_flag = asari_revisited_installed
+	}
+}
+
+# triggered by on_leader_spawned
+# THIS = country
+# FROM = leader
+country_event = {
+	id = asari_evt.1
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		exists = FROM
+		FROM = {
+			gender = male
+			species = { species_portrait = asari }
+		}
+	}
+	immediate = {
+		FROM = {
+			set_is_female = yes
+			set_name = random
+		}
+	}
+}
+
+# triggered by on_election_started
+country_event = {
+	id = asari_evt.2
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		any_owned_leader = {
+			has_leader_flag = temp_election_leader
+			gender = male
+			species = { species_portrait = asari }
+		}
+	}
+	immediate = {
+		every_owned_leader = {
+			limit = {
+				has_leader_flag = temp_election_leader
+				gender = male
+				species = { species_portrait = asari }
+			}
+			set_is_female = yes
+			set_name = random
+		}
+	}
+}
+
+# triggered by on_game_start_country
+country_event = {
+	id = asari_evt.3
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		any_owned_leader = {
+			gender = male
+			species = { species_portrait = asari }
+		}
+	}
+	immediate = {
+		every_owned_leader = {
+			limit = {
+				gender = male
+				species = { species_portrait = asari }
+			}
+			set_is_female = yes
+			if = {
+				limit = { NOT = { leader_class = ruler } }
+				set_name = random
+			}
+		}
+	}
+}
+
+# triggered by empire_init_add_technologies
+country_event = {
+	id = asari_evt.4
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = is_silfae_asari
+	}
+	immediate = {
+		give_technology = {
+			tech = tech_psionic_theory
+			message = no
+		}
+	}
+}

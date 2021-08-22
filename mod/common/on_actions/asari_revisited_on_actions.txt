@@ -1,0 +1,39 @@
+# fired when the game starts
+on_game_start = {
+	events = {
+		asari_evt.13 # flag mod as installed
+	}
+}
+
+# fired when the game starts for each country
+# THIS = country
+on_game_start_country = {
+	events = {
+		asari_evt.3
+	}
+}
+
+# fired when a new leader is generated for an empire, to be available for recruitment
+# THIS = country
+# FROM = leader
+on_leader_spawned = {
+	events = {
+		asari_evt.1
+	}
+}
+
+# fired during empire initialization when starting a new game
+# THIS = country
+empire_init_add_technologies = {
+	events = {
+		asari_evt.4
+	}
+}
+
+# fired when an election starts
+# THIS = country
+on_election_started = {
+	events = {
+		asari_evt.1
+	}
+}

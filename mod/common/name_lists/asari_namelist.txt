@@ -119,7 +119,7 @@
 		}
 
 		xenomorph_army = {
-			sequential_name = "%O% Rachni"
+			sequential_name = "%O% Rachni Swarm"
 		}
 
 		gene_warrior_army = {

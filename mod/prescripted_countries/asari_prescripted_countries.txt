@@ -3,6 +3,7 @@ asari_colonies = {
 	name = asari_colonies
 	adjective = "Asari"
 	spawn_enabled = yes
+	ignore_portrait_duplication = yes
 	ship_prefix = ""
 	species = {
 		class = ASA

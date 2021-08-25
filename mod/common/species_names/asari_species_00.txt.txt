@@ -1,0 +1,16 @@
+ASA = {
+	asari1 = {
+		name = "Asari"
+		plural = "Asari" 
+		home_planet = "Thessia"
+		home_system = "Asterilya"
+		name_list = ASA1
+	}
+	asari2 = {
+		name = "Asari"
+		plural = "Asari" 
+		home_planet = "New Thessia"
+		home_system = "Elempar"
+		name_list = ASA1
+	}
+}

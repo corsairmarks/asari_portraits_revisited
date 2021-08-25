@@ -1,9 +1,0 @@
-ASA = {
-	asari = {
-		name = "Asari"
-		plural = "Asari" 
-		home_planet = "Thessia"
-		home_system = "Asterilya"
-		name_list = ASA1
-	}
-}

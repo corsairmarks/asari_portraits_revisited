@@ -55,6 +55,7 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
 
 * 1.0.0 Initial version
 * 1.0.1 Don't allow other species to use the 0-cost Asari trait
+* 1.0.2 Namelist tweaks
 
 ## Source Code
 

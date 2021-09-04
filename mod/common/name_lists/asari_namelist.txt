@@ -1,4 +1,5 @@
 ﻿ASA1 = {
+	category = "Asari"
 	ship_names = {
 		generic = {
 			"Azedes" "Cybaen" "Destiny Ascension" "Nefrane" "Verallas" "Purgatory" "Elbrus" "Ontario" "Monarch" "Tenurron"
@@ -115,7 +116,7 @@
 		}
 
 		psionic_army = {
-			sequential_name = "%O% Biotics"
+			sequential_name = "%O% Biotic Huntresses"
 		}
 
 		xenomorph_army = {
@@ -159,40 +160,32 @@
 		}
 
 		pc_desert = {
-			names = {
-			}
+			names = { }
 		}
 
 		pc_tropical = {
-			names = {
-			}
+			names = { }
 		}
 
 		pc_arid = {
-			names = {
-			}
+			names = { }
 		}
 
 		pc_continental = {
-			names = {
-			}
+			names = { }
 		}
 
 		pc_ocean = {
-			names = {
-			}
+			names = { }
 		}
 
 		pc_tundra = {
-			names = {
-			}
+			names = { }
 		}
 
 		pc_arctic = {
-			names = {
-			}
+			names = { }
 		}
-
 	}
 	### CHARACTERS
 	character_names = {

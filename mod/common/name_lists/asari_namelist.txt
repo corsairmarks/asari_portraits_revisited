@@ -206,10 +206,10 @@
 			}
 			# Always combined with a first name
 			second_names = {
-				Conise M'talyt Iessinus T'kasan Driara Nurave T'dotis Sabulyt V'doix Ledatari thare Mesir V'lani Makesus Edoro V'mosava V'criios Skazea
-				T'vavo Corliqua thaniala T'keix V'dovius  T'raoci Moranis T'nesava M'kyais Ditritora Morasan thanivus Iaci Driius Prajah T'raosi Calela
-				T'somi Iessiari Moix M'lioyma Gatari Iaora T'zelas M'jaius T'milas T'raora thanolas V'morus Gara Murala M'loburo T'dofi Leix Januri
-				M'toara V'mosus D'lato Arteava T'erze T'rami Conisava Mior Iase Rayma T'soos D'ado thaza Merezea T'eror V'laros Aveix T'sado Raria Galis
+				Conise M'talyt Iessinus T'kasan Driara Nurave T'dotis Sabulyt V'doix Ledatari Thare Mesir V'lani Makesus Edoro V'mosava V'criios Skazea
+				T'vavo Corliqua Thaniala T'keix V'dovius  T'raoci Moranis T'nesava M'kyais Ditritora Morasan Thanivus Iaci Driius Prajah T'raosi Calela
+				T'somi Iessiari Moix M'lioyma Gatari Iaora T'zelas M'jaius T'milas T'raora Thanolas V'morus Gara Murala M'loburo T'dofi Leix Januri
+				M'toara V'mosus D'lato Arteava T'erze T'rami Conisava Mior Iase Rayma T'soos D'ado Thaza Merezea T'eror V'laros Aveix T'sado Raria Galis
 				Drise Skado Caleza T'soria T'resir Artese T'dozea Caleris Meana Serix Noro T'scatis Catora Moora Jannueri Datora D'corius Vajin T'esla
 				V'crieri Maira D'nasi Gare Pesato T'dozor Janniara Matorev
  			}
@@ -229,10 +229,10 @@
 			}
 			# Always combined with a regnal first name
 			regnal_second_names = {
-				Conise M'talyt Iessinus T'kasan Driara Nurave T'dotis Sabulyt V'doix Ledatari thare Mesir V'lani Makesus Edoro V'mosava V'criios Skazea
-				T'vavo Corliqua thaniala T'keix V'dovius  T'raoci Moranis T'nesava M'kyais Ditritora Morasan thanivus Iaci Driius Prajah T'raosi Calela
-				T'somi Iessiari Moix M'lioyma Gatari Iaora T'zelas M'jaius T'milas T'raora thanolas V'morus Gara Murala M'loburo T'dofi Leix Januri
-				M'toara V'mosus D'lato Arteava T'erze T'rami Conisava Mior Iase Rayma T'soos D'ado thaza Merezea T'eror V'laros Aveix T'sado Raria Galis
+				Conise M'talyt Iessinus T'kasan Driara Nurave T'dotis Sabulyt V'doix Ledatari Thare Mesir V'lani Makesus Edoro V'mosava V'criios Skazea
+				T'vavo Corliqua Thaniala T'keix V'dovius  T'raoci Moranis T'nesava M'kyais Ditritora Morasan Thanivus Iaci Driius Prajah T'raosi Calela
+				T'somi Iessiari Moix M'lioyma Gatari Iaora T'zelas M'jaius T'milas T'raora Thanolas V'morus Gara Murala M'loburo T'dofi Leix Januri
+				M'toara V'mosus D'lato Arteava T'erze T'rami Conisava Mior Iase Rayma T'soos D'ado Thaza Merezea T'eror V'laros Aveix T'sado Raria Galis
 				Drise Skado Caleza T'soria T'resir Artese T'dozea Caleris Meana Serix Noro T'scatis Catora Moora Jannueri Datora D'corius Vajin T'esla
 				V'crieri Maira D'nasi Gare Pesato T'dozor Janniara Matorev
 			}

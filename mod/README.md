@@ -59,6 +59,7 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
 * 2.0.0 Mark as compatible with Stellaris version 3.1.* "Lem"
     * Add new localisation keys introduced in 3.1
     * Set Asari as female-only using new features (start a new game or run `event asari_evt.3` to update an existing game)
+    * Fix capitalisation issue with second names that started with "th" in the namelist
 
 ## Source Code
 

@@ -35,7 +35,7 @@ Compatible with any mod that does not add the same portraits, species class, or 
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 
-Not compatible with achievements.
+Built for Stellaris version 3.1.* "Lem."  Not compatible with achievements.
 
 ### Dependencies
 
@@ -56,6 +56,9 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
 * 1.0.0 Initial version
 * 1.0.1 Don't allow other species to use the 0-cost Asari trait
 * 1.0.2 Namelist tweaks
+* 2.0.0 Mark as compatible with Stellaris version 3.1.* "Lem"
+    * Add new localisation keys introduced in 3.1
+    * Set Asari as female-only using new features
 
 ## Source Code
 

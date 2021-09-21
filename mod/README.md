@@ -6,11 +6,11 @@ There are lots of other mods which contain the same or similar portraits, so why
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.0.*, the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.1.*, the latest version when this was written.  Updates include:
 
-* Code now sets any leader using the Asari portrait to have `gender = female`
+* Code now sets any species using the Asari portrait to have `gender = female`
     * All your Asari-portrait leaders will show as Female in the UI and use female pronouns (she/her/hers)
-    * Events (hidden) fire on game start, leaders spawning, when elections begin
+    * Event (hidden) fires on game start
 * Improve Asari portrait definitions and selectors
     * Clothing selectors influenced by Pop job
     * Fix syntax error in Asari mesh definitions

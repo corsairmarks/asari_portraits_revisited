@@ -63,7 +63,6 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
 * 3.0.0 Update for compatibility with Stellaris version 3.1 "Lem"
     * Use new "non-gender" species choice to set the prescripted empire to `gender = female`
 
-feature/stellaris-3.2-herbert
 ## Source Code
 
 Hosted on [GitHub](https://github.com/corsairmarks/asari_portraits_revisited)

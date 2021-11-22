@@ -6,7 +6,7 @@ There are lots of other mods which contain the same or similar portraits, so why
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.1.*, the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2, the latest version when this was written.  Updates include:
 
 * Code now sets any species using the Asari portrait to have `gender = female`
     * All your Asari-portrait leaders will show as Female in the UI and use female pronouns (she/her/hers)
@@ -35,7 +35,7 @@ Compatible with any mod that does not add the same portraits, species class, or 
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 
-Built for Stellaris version 3.1.* "Lem."  Not compatible with achievements.
+Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
 
 ### Dependencies
 
@@ -56,11 +56,14 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
 * 1.0.0 Initial version
 * 1.0.1 Don't allow other species to use the 0-cost Asari trait
 * 1.0.2 Namelist tweaks
-* 2.0.0 Mark as compatible with Stellaris version 3.1.* "Lem"
+* 2.0.0 Update for compatibility with Stellaris version 3.1 "Lem"
     * Add new localisation keys introduced in 3.1
     * Set Asari as female-only using new features (start a new game or run `event asari_evt.3` to update an existing game)
     * Fix capitalisation issue with second names that started with "th" in the namelist
+* 3.0.0 Update for compatibility with Stellaris version 3.1 "Lem"
+    * Use new "non-gender" species choice to set the prescripted empire to `gender = female`
 
+feature/stellaris-3.2-herbert
 ## Source Code
 
 Hosted on [GitHub](https://github.com/corsairmarks/asari_portraits_revisited)

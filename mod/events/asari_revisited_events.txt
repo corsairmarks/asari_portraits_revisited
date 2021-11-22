@@ -19,11 +19,17 @@ country_event = {
 	hide_window = yes
 	is_triggered_only = yes
 	trigger = {
-		any_owned_pop_species = { species_portrait = asari }
+		any_owned_pop_species = {
+			species_portrait = asari
+			NOT = { species_gender = female }
+		}
 	}
 	immediate = {
 		every_owned_pop_species = {
-			limit = { species_portrait = asari }
+			limit = {
+				species_portrait = asari
+				NOT = { species_gender = female }
+			}
 			change_species_characteristics = {
 				gender = female
 				can_change_leader = yes

@@ -12,6 +12,7 @@ asari_colonies = {
 		plural = "Asari"
 		adjective = "Asari"
 		name_list = ASA1
+		gender = female
 		trait = trait_asari_age
 		trait = trait_asari_biology
 		trait = trait_unruly

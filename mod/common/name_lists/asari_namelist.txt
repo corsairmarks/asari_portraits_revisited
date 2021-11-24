@@ -191,11 +191,7 @@
 	character_names = {
 		default = {
 			# Always combined with a second name
-			first_names_male = {
-				MaleFirst
-			}
-			# Always combined with a second name
-			first_names_female = {
+			first_names = {
 				El'movi Rameus Enlikla Veyoraga Kaleziu Yelerphea Geavavi Erari Letumis Shieyir Imina Sulassny Po'lily Kieemphea Be'naus
 				Tarifetea Saiyzea Luinara Nyithsy Poriyny Jiyxany Lucessmia Isekaze Jalara Ketha Kiiha Eshesis Sam'irux Niedrasha Helyx Geeldze
 				Sheassze Zem'yana Sianaya Silika Yaarnea Ly'mehin Jeia Searly Tal'novi Vaenthda Di'shase Faifenea Emunya Lysirair Eailla Xan'koo
@@ -214,11 +210,7 @@
 				V'crieri Maira D'nasi Gare Pesato T'dozor Janniara Matorev
  			}
 			 # Always combined with a regnal second name
-			regnal_first_names_male = {
-				MaleFirstRegnal
-			}
-			# Always combined with a regnal second name
-			regnal_first_names_female = {
+			regnal_first_names = {
 				El'movi Rameus Enlikla Veyoraga Kaleziu Yelerphea Geavavi Erari Letumis Shieyir Imina Sulassny Po'lily Kieemphea Be'naus
 				Tarifetea Saiyzea Luinara Nyithsy Poriyny Jiyxany Lucessmia Isekaze Jalara Ketha Kiiha Eshesis Sam'irux Niedrasha Helyx Geeldze
 				Sheassze Zem'yana Sianaya Silika Yaarnea Ly'mehin Jeia Searly Tal'novi Vaenthda Di'shase Faifenea Emunya Lysirair Eailla Xan'koo

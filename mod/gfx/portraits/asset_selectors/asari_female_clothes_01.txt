@@ -47,6 +47,7 @@ asari_female_clothes_01 = {
 					has_job = evaluator
 					has_job = primitive_researcher
 					has_job = primitive_researcher_2
+					has_job = healthcare
 					# military
 					has_job = duelist
 					has_job = enforcer
@@ -104,6 +105,7 @@ asari_female_clothes_01 = {
 				has_job = evaluator
 				has_job = primitive_researcher
 				has_job = primitive_researcher_2
+				has_job = healthcare
 			}
 		}
 	}

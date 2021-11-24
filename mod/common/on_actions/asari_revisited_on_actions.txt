@@ -5,14 +5,6 @@ on_game_start = {
 	}
 }
 
-# fired when the game starts for each country
-# THIS = country
-on_game_start_country = {
-	events = {
-		asari_evt.3
-	}
-}
-
 # fired during empire initialization when starting a new game
 # THIS = country
 empire_init_add_technologies = {

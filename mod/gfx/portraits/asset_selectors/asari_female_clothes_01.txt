@@ -40,12 +40,12 @@ asari_female_clothes_01 = {
 					has_job = dimensional_portal_researcher_gestalt
 					has_job = fe_archivist
 					has_job = death_chronicler
+					has_job = chronicle_drone
 					has_job = spawning_drone
 					has_job = replicator
 					has_job = roboticist
 					has_job = evaluator
 					has_job = primitive_warrior
-					has_job = chronicle_drone
 					has_job = primitive_researcher
 					has_job = primitive_researcher_2
 					# military
@@ -98,11 +98,11 @@ asari_female_clothes_01 = {
 				has_job = dimensional_portal_researcher_gestalt
 				has_job = fe_archivist
 				has_job = death_chronicler
+				has_job = chronicle_drone
 				has_job = spawning_drone
 				has_job = replicator
 				has_job = roboticist
 				has_job = evaluator
-				has_job = chronicle_drone
 				has_job = primitive_researcher
 				has_job = primitive_researcher_2
 			}

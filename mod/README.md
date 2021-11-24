@@ -8,14 +8,14 @@ There are lots of other mods which contain the same or similar portraits, so why
 
 All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2, the latest version when this was written.  Updates include:
 
-* Code now sets any species using the Asari portrait to have `gender = female`
-    * All your Asari-portrait leaders will show as Female in the UI and use female pronouns (she/her/hers)
-    * Event (hidden) fires on game start
+* Code now sets the prescripted Asari Colonies empire portraits to have `gender = female`
+    * This is now implemented through the feature introduced in Stellaris 3.2 "Herbert" to specify a mono-gender species during empire creation
 * Improve Asari portrait definitions and selectors
     * Clothing selectors influenced by Pop job
     * Fix syntax error in Asari mesh definitions
     * Reduce duplication in portrait entity definitions, mesh definitions, and asset selectors
 * Update the namelist to account for all built-in army types, remove obsolete entries; Army names more lore-friendly
+* Update namelist to support any gender and not just female
 * Add custom trait "Asari Longevity" to the Asari species class
     * This trait makes their leaders begin at an older age
     * Add bonus lifespan to compensate for their older starting age
@@ -61,7 +61,9 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
     * Set Asari as female-only using new features (start a new game or run `event asari_evt.3` to update an existing game)
     * Fix capitalisation issue with second names that started with "th" in the namelist
 * 3.0.0 Update for compatibility with Stellaris version 3.1 "Lem"
-    * Use new "non-gender" species choice to set the prescripted empire to `gender = female`
+    * Use new "mono-gender" species choice to set the prescripted empire to `gender = female`
+    * Remove event to force the Asari portraits to be female (the game can do this now)
+    * Ensure namelist work with any gender
 
 ## Source Code
 

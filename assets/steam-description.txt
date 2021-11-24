@@ -9,10 +9,9 @@ There are lots of other mods which contain the same or similar portraits, so why
 All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2, the latest version when this was written.  Updates include:
 
 [list]
-[*]Code now sets any species using the Asari portrait to have [b]gender = female[/b]
+[*]Code now sets the prescripted Asari Colonies empire portraits to have [b]gender = female[/b]
     [list]
-    [*]All your Asari-portrait leaders will show as Female in the UI and use female pronouns (she/her/hers)
-    [*]Event (hidden) fires on game start
+    [*]This is now implemented through the feature introduced in Stellaris 3.2 "Herbert" to specify a mono-gender species during empire creation
     [/list]
 [*]Improve Asari portrait definitions and selectors
     [list]
@@ -21,6 +20,7 @@ All gameplay features from the original mod are upgraded to be fully compatible 
     [*]Reduce duplication in portrait entity definitions, mesh definitions, and asset selectors
     [/list]
 [*]Update the namelist to account for all built-in army types, remove obsolete entries; Army names more lore-friendly
+[*]Update namelist to support any gender and not just female
 [*]Add custom trait "Asari Longevity" to the Asari species class
     [list]
     [*]This trait makes their leaders begin at an older age

@@ -6,12 +6,12 @@ There are lots of other mods which contain the same or similar portraits, so why
 
 [h1]Changes[/h1]
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2, the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2 "Herbert,"" the latest version when this was written.  Updates include:
 
 [list]
 [*]Code now sets the prescripted Asari Colonies empire portraits to have [b]gender = female[/b]
     [list]
-    [*]This is now implemented through the feature introduced in Stellaris 3.2 "Herbert" to specify a mono-gender species during empire creation
+    [*]This is now implemented through the feature introduced in Stellaris 3.2 to specify a mono-gender species during empire creation
     [/list]
 [*]Improve Asari portrait definitions and selectors
     [list]

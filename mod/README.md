@@ -6,10 +6,10 @@ There are lots of other mods which contain the same or similar portraits, so why
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2, the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2 "Herbert," the latest version when this was written.  Updates include:
 
 * Code now sets the prescripted Asari Colonies empire portraits to have `gender = female`
-    * This is now implemented through the feature introduced in Stellaris 3.2 "Herbert" to specify a mono-gender species during empire creation
+    * This is now implemented through the feature introduced in Stellaris 3.2 to specify a mono-gender species during empire creation
 * Improve Asari portrait definitions and selectors
     * Clothing selectors influenced by Pop job
     * Fix syntax error in Asari mesh definitions
@@ -63,7 +63,7 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
 * 3.0.0 Update for compatibility with Stellaris version 3.1 "Lem"
     * Use new "mono-gender" species choice to set the prescripted empire to `gender = female`
     * Remove event to force the Asari portraits to be female (the game can do this now)
-    * Ensure namelist work with any gender
+    * Ensure namelist works with any gender
 
 ## Source Code
 

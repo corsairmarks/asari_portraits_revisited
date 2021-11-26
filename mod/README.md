@@ -60,9 +60,9 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
     * Add new localisation keys introduced in 3.1
     * Set Asari as female-only using new features (start a new game or run `event asari_evt.3` to update an existing game)
     * Fix capitalisation issue with second names that started with "th" in the namelist
-* 3.0.0 Update for compatibility with Stellaris version 3.1 "Lem"
+* 3.0.0 Update for compatibility with Stellaris version 3.2 "Herbert"
     * Use new "mono-gender" species choice to set the prescripted empire to `gender = female`
-    * Remove event to force the Asari portraits to be female (the game can do this now)
+    * Remove event to force the Octee-lan portraits to be female (the game can do this now)
     * Ensure namelist works with any gender
 
 ## Source Code

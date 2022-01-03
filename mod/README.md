@@ -8,7 +8,7 @@ There are lots of other mods which contain the same or similar portraits, so why
 
 All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2 "Herbert," the latest version when this was written.  Updates include:
 
-* Code now sets the prescripted Asari Colonies empire portraits to have `gender = female`
+* Code now sets the pre-scripted Asari Colonies empire portraits to have `gender = female`
     * This is now implemented through the feature introduced in Stellaris 3.2 to specify a mono-gender species during empire creation
 * Improve Asari portrait definitions and selectors
     * Clothing selectors influenced by Pop job
@@ -22,7 +22,7 @@ All gameplay features from the original mod are upgraded to be fully compatible 
     * Automatically given to any species designed with the Asari portraits for free
     * Enhanced art from original trait
 * Replace original Asari trait with "Cellular Regeneration" that grants the majority of the age boost (and leader XP penalty) and is available for any species to use
-* Update prescripted empire for 3.0
+* Update pre-scripted empire for 3.0
     * Now has Origin: Prosperous Unification
     * Some negatives of the original Asari trait had corresponding negative traits, so Deviants and Slow Learners were added instead
     * Added Unruly - Asari government is extremely decentralized and "young" Asari tend to be restless and rebellious, it seemed to fit
@@ -61,9 +61,10 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
     * Set Asari as female-only using new features (start a new game or run `event asari_evt.3` to update an existing game)
     * Fix capitalisation issue with second names that started with "th" in the namelist
 * 3.0.0 Update for compatibility with Stellaris version 3.2 "Herbert"
-    * Use new "mono-gender" species choice to set the prescripted empire to `gender = female`
+    * Use new "mono-gender" species choice to set the pre-scripted empire to `gender = female`
     * Remove event to force the Octee-lan portraits to be female (the game can do this now)
     * Ensure namelist works with any gender
+* 3.0.1 No longer ignore portrait duplication for the pre-scripted empire
 
 ## Source Code
 

@@ -7,7 +7,6 @@ There are lots of other mods which contain the same or similar portraits, so why
 [h1]Changes[/h1]
 
 All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2 "Herbert,"" the latest version when this was written.  Updates include:
-
 [list]
 [*]Code now sets the prescripted Asari Colonies empire portraits to have [b]gender = female[/b]
     [list]
@@ -38,7 +37,6 @@ All gameplay features from the original mod are upgraded to be fully compatible 
     [*]Gains Psionic Theory for free
     [/list]
 [/list]
-
 [h2]Compatibility[/h2]
 
 Compatible with any mod that does not add the same portraits, species class, or art assets.

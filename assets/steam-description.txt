@@ -4,7 +4,7 @@ Are you a fanatic xenophile when it comes to blue aliens? Do you wish Silfae's "
 There are lots of other mods which contain the same or similar portraits, so why should you choose this one? Silfae's art style meshes well with Stellaris, or maybe you want to play her version of the Asari Colonies - content which this mod again makes playable.  Please enjoy my translation of Silfae's custom empire into modern Stellaris.
 
 [h1]Changes[/h1]
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.2 "Herbert,"" the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.3 "Libra,"" the latest version when this was written.  Updates include:
 [list]
 [*]Code now sets the pre-scripted Asari Colonies empire portraits to have [b]gender = female[/b]
     [list]
@@ -26,7 +26,7 @@ All gameplay features from the original mod are upgraded to be fully compatible 
     [*]Enhanced art from original trait
     [/list]
 [*]Replace original Asari trait with "Cellular Regeneration" that grants the majority of the age boost (and leader XP penalty) and is available for any species to use
-[*]Update pre-scripted empire for 3.0
+[*]Update pre-scripted empire for 3.0+
     [list]
     [*]Now has Origin: Prosperous Unification
     [*]Some negatives of the original Asari trait had corresponding negative traits, so Deviants and Slow Learners were added instead
@@ -40,7 +40,7 @@ Compatible with any mod that does not add the same portraits, species class, or 
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 
-Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
+Built for Stellaris version 3.3 "Libra."  Not compatible with achievements.
 
 [h3]Dependencies[/h3]
 In order for this mod to function, you [b]must[/b] install the following mod and load it before this one:

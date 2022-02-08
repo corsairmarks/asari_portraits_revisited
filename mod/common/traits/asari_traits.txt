@@ -6,7 +6,6 @@ trait_asari_biology = {
 	cost = 6
 	potential_crossbreeding_chance = 0.2
 	initial = yes
-	modification = yes
 	randomized = no
 	allowed_archetypes = { BIOLOGICAL }
 	modifier = {
@@ -24,7 +23,9 @@ trait_asari_age = {
 	sorting_priority = 20
 	initial = no
 	randomized = no
-	modification = no
+	species_potential_add = { always = no }
+	species_possible_remove = { always = no }
+	species_possible_merge_add = { always = no }
 	forced_happiness = no
 	immortal_leaders = no
 	leader_age_min = 90

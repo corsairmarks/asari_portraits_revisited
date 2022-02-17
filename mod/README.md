@@ -35,7 +35,7 @@ Compatible with any mod that does not add the same portraits, species class, or 
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 
-Built for Stellaris version 3.2.* "Herbert."  Not compatible with achievements.
+Built for Stellaris version 3.3 "Libra."  Not compatible with achievements.
 
 ### Dependencies
 

@@ -67,6 +67,7 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
 * 3.0.1 No longer ignore portrait duplication for the pre-scripted empire
 * 4.0.0 Update for compatibility with Stellaris version 3.3 "Libra"
     * Asari traits use the new properties that replaced `modification`
+    * Use a shared set of triggers for job-based clothing
 
 ## Source Code
 

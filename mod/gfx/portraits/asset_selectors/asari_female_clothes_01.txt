@@ -30,37 +30,9 @@ asari_female_clothes_01 = {
 		default = "gfx/models/portraits/asari/asari_female_clothes_ruler.dds"
 		random = {
 			trigger = {
-				NOR = {
-					# scientist
-					has_job = head_researcher
-					has_job = researcher
-					has_job = brain_drone
-					has_job = calculator
-					has_job = dimensional_portal_researcher
-					has_job = dimensional_portal_researcher_gestalt
-					has_job = fe_archivist
-					has_job = death_chronicler
-					has_job = chronicle_drone
-					has_job = spawning_drone
-					has_job = replicator
-					has_job = roboticist
-					has_job = evaluator
-					has_job = primitive_researcher
-					has_job = primitive_researcher_2
-					has_job = healthcare
-					# military
-					has_job = duelist
-					has_job = enforcer
-					has_job = telepath
-					has_job = necromancer
-					has_job = soldier
-					has_job = titan_hunter
-					has_job = patrol_drone
-					has_job = warrior_drone
-					has_job = fe_protector
-					has_job = primitive_warrior
-					has_job = primitive_warrior_2
-				}
+				cm_shared_pop_is_assembly_type = no
+				cm_shared_pop_is_military_type = no
+				cm_shared_pop_is_science_type = no
 			}
 			list = {
 				"gfx/models/portraits/asari/asari_female_clothes_ruler.dds"
@@ -68,21 +40,7 @@ asari_female_clothes_01 = {
 			}
 		}
 		random = {
-			trigger = {
-				OR = {
-					has_job = duelist
-					has_job = enforcer
-					has_job = telepath
-					has_job = necromancer
-					has_job = soldier
-					has_job = titan_hunter
-					has_job = patrol_drone
-					has_job = warrior_drone
-					has_job = fe_protector
-					has_job = primitive_warrior
-					has_job = primitive_warrior_2
-				}
-			}
+			trigger = { cm_shared_pop_is_military_type = yes }
 			list = {
 				"gfx/models/portraits/asari/asari_female_clothes_admiral.dds"
 				"gfx/models/portraits/asari/asari_female_clothes_general.dds"
@@ -90,22 +48,8 @@ asari_female_clothes_01 = {
 		}
 		"gfx/models/portraits/asari/asari_female_clothes_scientist.dds" = {
 			OR = {
-				has_job = head_researcher
-				has_job = researcher
-				has_job = brain_drone
-				has_job = calculator
-				has_job = dimensional_portal_researcher
-				has_job = dimensional_portal_researcher_gestalt
-				has_job = fe_archivist
-				has_job = death_chronicler
-				has_job = chronicle_drone
-				has_job = spawning_drone
-				has_job = replicator
-				has_job = roboticist
-				has_job = evaluator
-				has_job = primitive_researcher
-				has_job = primitive_researcher_2
-				has_job = healthcare
+				cm_shared_pop_is_science_type = yes
+				cm_shared_pop_is_assembly_type = yes
 			}
 		}
 	}

@@ -33,15 +33,15 @@ asari_colonies = {
 	city_graphical_culture = asari_01
 	origin = origin_default
 	empire_flag = {
-		icon= {
+		icon = {
 			category = "ornate"
 			file = "flag_asari_1.dds"
 		}
-		background= {
+		background = {
 			category = "backgrounds"
 			file = "00_solid.dds"
 		}
-		colors={
+		colors = {
 			"blue"
 			"blue"
 			"null"

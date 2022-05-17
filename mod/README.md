@@ -6,7 +6,7 @@ There are lots of other mods which contain the same or similar portraits, so why
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.3 "Libra," the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.4 "Cepheus," the latest version when this was written.  Updates include:
 
 * Code now sets the pre-scripted Asari Colonies empire portraits to have `gender = female`
     * This is now implemented through the feature introduced in Stellaris 3.2 to specify a mono-gender species during empire creation
@@ -35,7 +35,7 @@ Compatible with any mod that does not add the same portraits, species class, or 
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 
-Built for Stellaris version 3.3 "Libra."  Not compatible with achievements.
+Built for Stellaris version 3.4 "Cepheus."  Not compatible with achievements.
 
 ### Dependencies
 
@@ -68,6 +68,9 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
 * 4.0.0 Update for compatibility with Stellaris version 3.3 "Libra"
     * Asari traits use the new properties that replaced `modification`
     * Use a shared set of triggers for job-based clothing
+* 5.0.0 Update for Stellaris version 3.4 "Cepheus"
+    * Update shared triggers
+    * All static text moved to localisation (random names, name lists, prescripted empire)
 
 ## Source Code
 

@@ -56,7 +56,8 @@ asari_colonies = {
 		texture = 1
 		hair = 1
 		clothes = 0
-		ruler_title = RT_MATRIARCH
+		ruler_title = RT_PATRIARCH
+		ruler_title_female = RT_MATRIARCH
 	}
 	flags = { is_silfae_asari }
 }

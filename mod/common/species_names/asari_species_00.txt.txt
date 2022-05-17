@@ -1,16 +1,16 @@
 ASA = {
 	asari1 = {
-		name = "Asari"
-		plural = "Asari" 
-		home_planet = "Thessia"
-		home_system = "Asterilya"
+		name = SPEC_ASA_asari1
+		plural = SPEC_ASA_asari1_plural
+		home_planet = SPEC_ASA_asari1_planet
+		home_system = SPEC_ASA_asari1_system
 		name_list = ASA1
 	}
 	asari2 = {
-		name = "Asari"
-		plural = "Asari" 
-		home_planet = "New Thessia"
-		home_system = "Elempar"
+		name = SPEC_ASA_asari2
+		plural = SPEC_ASA_asari2_plural
+		home_planet = SPEC_ASA_asari2_planet
+		home_system = SPEC_ASA_asari2_system
 		name_list = ASA1
 	}
 }

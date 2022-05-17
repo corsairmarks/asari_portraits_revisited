@@ -59,88 +59,88 @@
 		random_names = {
 			NAME_FLEET_RANDOM_ASA1_1 NAME_FLEET_RANDOM_ASA1_2 NAME_FLEET_RANDOM_ASA1_3 NAME_FLEET_RANDOM_ASA1_4 NAME_FLEET_RANDOM_ASA1_5 NAME_FLEET_RANDOM_ASA1_6 NAME_FLEET_RANDOM_ASA1_7 NAME_FLEET_RANDOM_ASA1_8 NAME_FLEET_RANDOM_ASA1_9
 		}
-		sequential_name = NAME_FLEET_SEQ_ASA1
+		sequential_name = NAME_FLEET_ASA1_ORD
 	}
 	###ARMIES
 	army_names = {
 		machine_defense = {
-			sequential_name = NAME_ARMY_DEFENSE_SEQ_ASA1
+			sequential_name = NAME_ARMY_DEFENSE_ASA1_ORD
 		}
 		
 		machine_assault_1 = {
-			sequential_name = NAME_ARMY_ASSAULT_SEQ_ASA1
+			sequential_name = NAME_ARMY_ASSAULT_ASA1_ORD
 		}
 		
 		machine_assault_2 = {
-			sequential_name = NAME_ARMY_ASSAULT_SEQ_ASA1
+			sequential_name = NAME_ARMY_ASSAULT_ASA1_ORD
 		}
 		
 		machine_assault_3 = {
-			sequential_name = NAME_ARMY_ASSAULT_SEQ_ASA1
+			sequential_name = NAME_ARMY_ASSAULT_ASA1_ORD
 		}
 
 		defense_army = {
-			sequential_name = NAME_ARMY_DEFENSE_SEQ_ASA1
+			sequential_name = NAME_ARMY_DEFENSE_ASA1_ORD
 		}
 
 		assault_army = {
-			sequential_name = NAME_ARMY_ASSAULT_SEQ_ASA1
+			sequential_name = NAME_ARMY_ASSAULT_ASA1_ORD
 		}
 
 		slave_army = {
-			sequential_name = NAME_ARMY_SLAVE_SEQ_ASA1
+			sequential_name = NAME_ARMY_SLAVE_ASA1_ORD
 		}
 
 		clone_army = {
-			sequential_name = NAME_ARMY_CLONE_SEQ_ASA1
+			sequential_name = NAME_ARMY_CLONE_ASA1_ORD
 		}
 
 		undead_army = {
-			sequential_name = NAME_ARMY_UNDEAD_SEQ_ASA1
+			sequential_name = NAME_ARMY_UNDEAD_ASA1_ORD
 		}
 
 		robotic_army = {
-			sequential_name = NAME_ARMY_ROBOTIC_SEQ_ASA1
+			sequential_name = NAME_ARMY_ROBOTIC_ASA1_ORD
 		}
 
 		robotic_defense_army = {
-			sequential_name = NAME_ARMY_ROBOTIC_DEFENSE_SEQ_ASA1
+			sequential_name = NAME_ARMY_ROBOTIC_DEFENSE_ASA1_ORD
 		}
 
 		psionic_army = {
-			sequential_name = NAME_ARMY_PSIONIC_SEQ_ASA1
+			sequential_name = NAME_ARMY_PSIONIC_ASA1_ORD
 		}
 
 		xenomorph_army = {
-			sequential_name = NAME_ARMY_XENOMORPH_SEQ_ASA1
+			sequential_name = NAME_ARMY_XENOMORPH_ASA1_ORD
 		}
 
 		gene_warrior_army = {
-			sequential_name = NAME_ARMY_GENE_WARRIOR_SEQ_ASA1
+			sequential_name = NAME_ARMY_GENE_WARRIOR_ASA1_ORD
 		}
 
 		occupation_army = {
-			sequential_name = NAME_ARMY_OCCUPATION_SEQ_ASA1
+			sequential_name = NAME_ARMY_OCCUPATION_ASA1_ORD
 		}
 
 		robotic_occupation_army = {
-			sequential_name = NAME_ARMY_ROBOTIC_OCCUPATION_SEQ_ASA1
+			sequential_name = NAME_ARMY_ROBOTIC_OCCUPATION_ASA1_ORD
 		}
 
 		machine_occupation_army = {
-			sequential_name = NAME_ARMY_OCCUPATION_SEQ_ASA1
+			sequential_name = NAME_ARMY_OCCUPATION_ASA1_ORD
 		}
 
 		primitive_army = {
-			sequential_name = NAME_ARMY_PRIMITIVE_SEQ_ASA1
+			sequential_name = NAME_ARMY_PRIMITIVE_ASA1_SEQ
 		}
 
 		industrial_army = {
-			sequential_name = NAME_ARMY_INDUSTRIAL_SEQ_ASA1
+			sequential_name = NAME_ARMY_INDUSTRIAL_ASA1_SEQ
 		}
 
 		postatomic_army = {
-			sequential_name = NAME_ARMY_POSTATOMIC_SEQ_ASA1
+			sequential_name = NAME_ARMY_POSTATOMIC_ASA1_SEQ
 		}
 	}
 	### PLANETS

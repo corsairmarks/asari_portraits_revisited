@@ -9,7 +9,7 @@ tags={
 	"Graphics"
 	"Species"
 }
-version="5.0.0"
+version="5.1.0"
 picture="thumbnail.png"
 supported_version="3.4.*"
 remote_file_id="2581752619"

@@ -71,6 +71,7 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
 * 5.0.0 Update for Stellaris version 3.4 "Cepheus"
     * Update shared triggers
     * All static text moved to localisation (random names, name lists, prescripted empire)
+* 5.1.0 Further enhancements for Stellaris version 3.4 "Cepheus" - add a slave cost adjustment for the custom trait
 
 ## Source Code
 

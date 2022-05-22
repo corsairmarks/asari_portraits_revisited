@@ -72,6 +72,7 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
     * Update shared triggers
     * All static text moved to localisation (random names, name lists, prescripted empire)
 * 5.1.0 Further enhancements for Stellaris version 3.4 "Cepheus" - add a slave cost adjustment for the custom trait
+* 5.1.1 Fix duplicate localisation key for a planet name in the Asari name list 
 
 ## Source Code
 

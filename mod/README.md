@@ -6,7 +6,7 @@ There are lots of other mods which contain the same or similar portraits, so why
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.4 "Cepheus," the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.6 "Orion," the latest version when this was written.  Updates include:
 
 * Code now sets the pre-scripted Asari Colonies empire portraits to have `gender = female`
     * This is now implemented through the feature introduced in Stellaris 3.2 to specify a mono-gender species during empire creation
@@ -35,7 +35,7 @@ Compatible with any mod that does not add the same portraits, species class, or 
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 
-Built for Stellaris version 3.4 "Cepheus."  Not compatible with achievements.
+Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
 
 ### Dependencies
 
@@ -59,10 +59,10 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
 * 2.0.0 Update for compatibility with Stellaris version 3.1 "Lem"
     * Add new localisation keys introduced in 3.1
     * Set Asari as female-only using new features (start a new game or run `event asari_evt.3` to update an existing game)
-    * Fix capitalisation issue with second names that started with "th" in the namelist
+    * Fix capitalization issue with second names that started with "th" in the namelist
 * 3.0.0 Update for compatibility with Stellaris version 3.2 "Herbert"
     * Use new "mono-gender" species choice to set the pre-scripted empire to `gender = female`
-    * Remove event to force the Octee-lan portraits to be female (the game can do this now)
+    * Remove event to force the Asari portraits to be female (the game can do this now)
     * Ensure namelist works with any gender
 * 3.0.1 No longer ignore portrait duplication for the pre-scripted empire
 * 4.0.0 Update for compatibility with Stellaris version 3.3 "Libra"
@@ -72,7 +72,10 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
     * Update shared triggers
     * All static text moved to localisation (random names, name lists, prescripted empire)
 * 5.1.0 Further enhancements for Stellaris version 3.4 "Cepheus" - add a slave cost adjustment for the custom trait
-* 5.1.1 Fix duplicate localisation key for a planet name in the Asari name list 
+* 5.1.1 Fix duplicate localisation key for a planet name in the Asari name list
+* 6.0.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax")
+    * Minor namelist updates
+    * Update `hair` to `attachment`
 
 ## Source Code
 

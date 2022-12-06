@@ -76,6 +76,7 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
 * 6.0.0 Update for Stellaris version 3.6 "Orion" (and changes from version 3.5 "Fornax")
     * Minor namelist updates
     * Update `hair` to `attachment`
+* 6.0.1 Fix "BLANK_STRING" literal that was used for the ship prefix by the prescripted empire
 
 ## Source Code
 

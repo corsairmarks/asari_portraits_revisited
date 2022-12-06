@@ -349,7 +349,6 @@
  NAME_CHARACTER_SECOND_ASA1_100: "Matorev"
  EMPIRE_DESIGN_asari_colonies: "Asari Colonies"
  EMPIRE_DESIGN_asari_colonies_desc: "A mono-gender species, the Asari are distinctly feminine in appearance and possess maternal instincts. Their unique physiology, expressed in a millennium-long lifespan and the ability to reproduce with a partner of any gender or species, gives them a conservative yet convivial attitude toward other races.\n\nAsari are naturally predisposed to interact with other intelligent species. On the other hand, their peculiar way of reproducing tends to make their communities plural and highly divergent in attitude and ideologies."
- PRESCRIPTED_ship_prefix_asari_colonies: "$BLANK_STRING$"
  PRESCRIPTED_adjective_asari_colonies: "Asari"
  PRESCRIPTED_species_name_asari_colonies: "Asari"
  PRESCRIPTED_species_plural_asari_colonies: "Asari"

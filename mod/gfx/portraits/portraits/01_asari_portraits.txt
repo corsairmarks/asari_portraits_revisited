@@ -1,35 +1,35 @@
 portraits = {
-	asari_female_01 = {	entity = "portrait_asari_female_01_entity"			clothes_selector = "asari_female_clothes_01"	hair_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_03"
+	asari_female_01 = {	entity = "portrait_asari_female_01_entity"			clothes_selector = "asari_female_clothes_01"	attachment_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_03"
 		character_textures = {
 			"gfx/models/portraits/asari/asari_female_body_01a.dds"
 			"gfx/models/portraits/asari/asari_female_body_01b.dds"
 		}
 	}
-	asari_female_02 = {	entity = "portrait_asari_female_01_entity"			clothes_selector = "asari_female_clothes_01" 	hair_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_01"
+	asari_female_02 = {	entity = "portrait_asari_female_01_entity"			clothes_selector = "asari_female_clothes_01" 	attachment_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_01"
 		character_textures = {
 			"gfx/models/portraits/asari/asari_female_body_02a.dds"
 			"gfx/models/portraits/asari/asari_female_body_02b.dds"
 		}
 	}
-	asari_female_03 = {	entity = "portrait_asari_female_01_entity"			clothes_selector = "asari_female_clothes_01" 	hair_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_01"
+	asari_female_03 = {	entity = "portrait_asari_female_01_entity"			clothes_selector = "asari_female_clothes_01" 	attachment_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_01"
 		character_textures = {
 			"gfx/models/portraits/asari/asari_female_body_03a.dds"
 			"gfx/models/portraits/asari/asari_female_body_03b.dds"
 		}
 	}
-	asari_female_04 = {	entity = "portrait_asari_female_01_entity"			clothes_selector = "asari_female_clothes_01" 	hair_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_01"
+	asari_female_04 = {	entity = "portrait_asari_female_01_entity"			clothes_selector = "asari_female_clothes_01" 	attachment_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_01"
 		character_textures = {
 			"gfx/models/portraits/asari/asari_female_body_04a.dds"
 			"gfx/models/portraits/asari/asari_female_body_04b.dds"
 		}
 	}
-	asari_female_05 = {	entity = "portrait_asari_female_01_entity"			clothes_selector = "asari_female_clothes_01" 	hair_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_01"
+	asari_female_05 = {	entity = "portrait_asari_female_01_entity"			clothes_selector = "asari_female_clothes_01" 	attachment_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_01"
 		character_textures = {
 			"gfx/models/portraits/asari/asari_female_body_05a.dds"
 			"gfx/models/portraits/asari/asari_female_body_05b.dds"
 		}
 	}
-	asari_female_06 = {	entity = "portrait_asari_female_01_entity"			clothes_selector = "asari_female_clothes_01" 	hair_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_01"
+	asari_female_06 = {	entity = "portrait_asari_female_01_entity"			clothes_selector = "asari_female_clothes_01" 	attachment_selector = "asari_female_hair_01"	greeting_sound = "human_female_greetings_01"
 		character_textures = {
 			"gfx/models/portraits/asari/asari_female_body_06a.dds"
 			"gfx/models/portraits/asari/asari_female_body_06b.dds"

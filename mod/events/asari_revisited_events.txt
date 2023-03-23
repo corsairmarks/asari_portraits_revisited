@@ -1,18 +1,5 @@
 namespace = asari_evt
 
-# flag mod as active
-event = {
-	id = asari_evt.13
-	hide_window = yes
-	is_triggered_only = yes
-	trigger = {
-		NOT = { has_global_flag = asari_revisited_installed }
-	}
-	immediate = {
-		set_global_flag = asari_revisited_installed
-	}
-}
-
 # triggered by empire_init_add_technologies
 country_event = {
 	id = asari_evt.4

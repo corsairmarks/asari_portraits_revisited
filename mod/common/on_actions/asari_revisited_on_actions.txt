@@ -1,12 +1,5 @@
-# fired when the game starts
-on_game_start = {
-	events = {
-		asari_evt.13 # flag mod as installed
-	}
-}
-
 # fired during empire initialization when starting a new game
-# THIS = country
+# this = country
 empire_init_add_technologies = {
 	events = {
 		asari_evt.4

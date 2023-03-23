@@ -6,7 +6,7 @@ There are lots of other mods which contain the same or similar portraits, so why
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.6 "Orion," the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.7 "Canis Minor," the latest version when this was written.  Updates include:
 
 * Code now sets the pre-scripted Asari Colonies empire portraits to have `gender = female`
     * This is now implemented through the feature introduced in Stellaris 3.2 to specify a mono-gender species during empire creation
@@ -35,7 +35,7 @@ Compatible with any mod that does not add the same portraits, species class, or 
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 
-Built for Stellaris version 3.6 "Orion."  Not compatible with achievements.
+Built for Stellaris version 3.7 "Canis Minor."  Not compatible with achievements.
 
 ### Dependencies
 
@@ -77,6 +77,10 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
     * Minor namelist updates
     * Update `hair` to `attachment`
 * 6.0.1 Fix "BLANK_STRING" literal that was used for the ship prefix by the prescripted empire
+* 7.0.0 Update for Stellaris version 3.7 "Canis Minor"
+    * Update shared triggers for Pop portraits
+    * Remove global flag
+    * Add compatibility trigger `has_asari_portraits_revisited_active`
 
 ## Source Code
 

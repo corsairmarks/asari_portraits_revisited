@@ -6,7 +6,7 @@ There are lots of other mods which contain the same or similar portraits, so why
 
 # Changes
 
-All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.7 "Canis Minor," the latest version when this was written.  Updates include:
+All gameplay features from the original mod are upgraded to be fully compatible with Stellaris 3.8 "Gemini," the latest version when this was written.  Updates include:
 
 * Code now sets the pre-scripted Asari Colonies empire portraits to have `gender = female`
     * This is now implemented through the feature introduced in Stellaris 3.2 to specify a mono-gender species during empire creation
@@ -16,11 +16,6 @@ All gameplay features from the original mod are upgraded to be fully compatible 
     * Reduce duplication in portrait entity definitions, mesh definitions, and asset selectors
 * Update the namelist to account for all built-in army types, remove obsolete entries; Army names more lore-friendly
 * Update namelist to support any gender and not just female
-* Add custom trait "Asari Longevity" to the Asari species class
-    * This trait makes their leaders begin at an older age
-    * Add bonus lifespan to compensate for their older starting age
-    * Automatically given to any species designed with the Asari portraits for free
-    * Enhanced art from original trait
 * Replace original Asari trait with "Cellular Regeneration" that grants the majority of the age boost (and leader XP penalty) and is available for any species to use
 * Update pre-scripted empire for 3.0+
     * Now has Origin: Prosperous Unification
@@ -28,6 +23,12 @@ All gameplay features from the original mod are upgraded to be fully compatible 
     * Added Unruly - Asari government is extremely decentralized and "young" Asari tend to be restless and rebellious, it seemed to fit
     * Can randomly spawn
     * Gains Psionic Theory for free
+* As of Stellaris 3.8, the Asari are part of the Humanoid species class
+* Add custom trait "Asari Longevity" for species using the Asari portraits
+    * This trait makes leaders begin at an older age
+    * Add bonus lifespan to compensate for their older starting age
+    * Automatically given to any species designed with the Asari portraits for free at game start
+    * Enhanced art from original trait
 
 ## Compatibility
 
@@ -35,7 +36,7 @@ Compatible with any mod that does not add the same portraits, species class, or 
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 
-Built for Stellaris version 3.7 "Canis Minor."  Not compatible with achievements.
+Built for Stellaris version 3.8 "Gemini."  Not compatible with achievements.
 
 ### Dependencies
 
@@ -81,6 +82,9 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
     * Update shared triggers for Pop portraits
     * Remove global flag
     * Add compatibility trigger `has_asari_portraits_revisited_active`
+* 8.0.0 Update for Stellaris version 3.8 "Gemini"
+    * Asari are now part of the Humanoid species class (thanks to changes by Paradox, this is no longer mod-unfriendly)
+    * Update shared triggers
 
 ## Source Code
 

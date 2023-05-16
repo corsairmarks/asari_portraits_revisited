@@ -1,12 +1,23 @@
+# used only for graphical_culture (cites/ships) and namelists
 ASA = {
 	archetype = BIOLOGICAL
 	randomized = yes
 	gender = yes
+	possible = { always = no }
+	possible_secondary = { always = no }
+	graphical_culture = asari_01
+	move_pop_sound_effect = "moving_pop_confirmation"
+	trait = trait_asari_age
+}
+
+
+# species classes are additive as of Stellaris 3.8 "Gemini"
+HUM = {
+	archetype = BIOLOGICAL
 	possible = { authority = { NOT = { value = auth_machine_intelligence text = SPECIES_CLASS_MUST_NOT_USE_MACHINE_INTELLIGENCE } } }
 	portraits = {
 		"asari"
 	}
-	graphical_culture = asari_01
+	graphical_culture = humanoid_01
 	move_pop_sound_effect = "moving_pop_confirmation"
-	trait = trait_asari_age
 }

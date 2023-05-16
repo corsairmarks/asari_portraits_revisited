@@ -6,14 +6,13 @@ asari_colonies = {
 	ignore_portrait_duplication = no
 	ship_prefix = "" # 3.6 does not allow references to the BLANK_STRING key, but an empty string literal is ok
 	species = {
-		class = ASA
+		class = HUM
 		portrait = asari
 		name = PRESCRIPTED_species_name_asari_colonies
 		plural = PRESCRIPTED_species_plural_asari_colonies
 		adjective = PRESCRIPTED_species_adjective_asari_colonies
 		name_list = ASA1
 		gender = female
-		trait = trait_asari_age
 		trait = trait_asari_biology
 		trait = trait_unruly
 		trait = trait_deviants
@@ -49,7 +48,7 @@ asari_colonies = {
 		}
 	}
 	ruler = {
-		leader_class = ruler
+		leader_class = governor
 		gender = female
 		name = PRESCRIPTED_ruler_name_asari_colonies
 		portrait = asari_female_01
@@ -58,6 +57,7 @@ asari_colonies = {
 		clothes = 0
 		ruler_title = RT_PATRIARCH
 		ruler_title_female = RT_MATRIARCH
+		trait = trait_ruler_charismatic
 	}
 	flags = { is_silfae_asari }
 }

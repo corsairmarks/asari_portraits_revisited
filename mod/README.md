@@ -84,6 +84,7 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
     * Add compatibility trigger `has_asari_portraits_revisited_active`
 * 8.0.0 Update for Stellaris version 3.8 "Gemini"
     * Asari are now part of the Humanoid species class (thanks to changes by Paradox, this is no longer mod-unfriendly)
+    * Update prescripted empire to use the new prescripted ruler class and trait system
     * Update shared triggers
 
 ## Source Code

@@ -22,12 +22,6 @@ cm_shared_is_cyborg_species = {
 }
 
 # this = something with a species
-cm_shared_is_hive_species = {
-	optimize_memory
-	species = { has_trait = trait_hive_mind }
-}
-
-# this = something with a species
 cm_shared_is_machine_species = {
 	optimize_memory
 	species = {
@@ -93,7 +87,7 @@ cm_shared_has_species_trait_with_leader_trait = {
 
 # this follows the game's default rules - does not account for Gender Nonbinary Leaders
 # this = leader, after species change
-cm_shared_leader_new_species_allows_current_gender = {
+cm_shared_leader_species_allows_current_gender = {
 	optimize_memory
 	switch = {
 		trigger = gender
@@ -113,7 +107,7 @@ cm_shared_leader_new_species_allows_current_gender = {
 				OR = {
 					AND = {
 						species_gender = not_set
-						cm_shared_species_can_set_is_female = yes
+						cm_shared_species_class_uses_gender = yes
 					}
 					species_gender = female
 				}
@@ -124,23 +118,11 @@ cm_shared_leader_new_species_allows_current_gender = {
 				OR = {
 					AND = {
 						species_gender = not_set
-						cm_shared_species_can_set_is_female = yes
+						cm_shared_species_class_uses_gender = yes
 					}
 					species_gender = male
 				}
 			}
-		}
-	}
-}
-
-# this = species
-cm_shared_species_can_set_is_female = {
-	optimize_memory
-	NOR = {
-		species_gender = indeterminable
-		AND = {
-			species_gender = not_set
-			cm_shared_species_class_uses_gender = no
 		}
 	}
 }
@@ -157,22 +139,7 @@ cm_shared_species_class_uses_gender = {
 		is_species_class = EXD # extradimensionals: unbidden/aberrant/vehement
 		is_species_class = SALVAGER # salvager enclave species
 		is_species_class = SHROUDWALKER # shroudwalker enclave species
-	}
-}
-
-# this = leader, with new species
-# from = species, previous
-cm_shared_leader_species_gender_change_requires_clone = {
-	optimize_memory
-	OR = {
-		AND = {
-			species = { cm_shared_species_can_set_is_female = no }
-			from = { cm_shared_species_can_set_is_female = yes }
-		}
-		AND = {
-			species = { cm_shared_species_can_set_is_female = yes }
-			from = { cm_shared_species_can_set_is_female = no }
-		}
+		is_species_class = PARAGON # legendary galactic paragons
 	}
 }
 
@@ -285,6 +252,7 @@ cm_shared_pop_is_science_type = {
 		has_job = primitive_hive_cerebellum_drone
 		has_job = primitive_hive_brain_drone
 		has_job = low_tech_researcher
+		has_job = archivist
 	}
 }
 

@@ -1,5 +1,23 @@
 namespace = asari_evt
 
+# triggered by on_game_start
+event = {
+	id = asari_evt.1
+	hide_window = yes
+	is_triggered_only = yes
+	immediate = {
+		every_galaxy_species = {
+			limit = {
+				species_portrait = asari
+				NOT = { has_trait = trait_asari_age }
+			}
+			change_species_characteristics = {
+				add_trait = trait_asari_age
+			}
+		}
+	}
+}
+
 # triggered by empire_init_add_technologies
 country_event = {
 	id = asari_evt.4

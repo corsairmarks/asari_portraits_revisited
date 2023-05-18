@@ -86,6 +86,7 @@ Silfae's original mod does not include graphics for ecumenopoleis, so they will 
     * Asari are now part of the Humanoid species class (thanks to changes by Paradox, this is no longer mod-unfriendly)
     * Update prescripted empire to use the new prescripted ruler class and trait system
     * Update shared triggers
+    * Integrate underlying game changes
 
 ## Source Code
 

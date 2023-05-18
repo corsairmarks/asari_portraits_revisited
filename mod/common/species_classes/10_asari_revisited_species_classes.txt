@@ -1,0 +1,21 @@
+# file renamed so that portraits appear after all built-in portraits
+
+# used only for graphical_culture (cites/ships) and namelists
+ASA = {
+	randomized = no
+	possible = { always = no }
+	possible_secondary = { always = no }
+	graphical_culture = asari_01
+}
+
+
+# species classes are additive as of Stellaris 3.8 "Gemini"
+HUM = {
+	custom_portraits = {
+		playable = { always = yes }
+		randomized = { always = yes }
+		portraits = {
+			"asari"
+		}
+	}
+}

@@ -37,7 +37,7 @@ All gameplay features from the original mod are upgraded to be fully compatible 
     [/list]
 [/list]
 [h2]Compatibility[/h2]
-Compatible with any mod that does not add the same portraits, species class, or art assets.
+Compatible with any mod that does not add the same portraits or art assets.
 
 The Launcher will tell you that some mods are outdated - that is because the dependency is out of date with the game's version number.  This mod overwrites and replaces all incompatible code so that the portrait mod will function as originally designed.  You can safely ignore the out-of-date warning for the dependency mod.
 

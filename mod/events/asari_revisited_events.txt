@@ -6,13 +6,91 @@ event = {
 	hide_window = yes
 	is_triggered_only = yes
 	immediate = {
+		every_country = {
+			every_owned_leader = {
+				limit = {
+					species = {
+						species_portrait = asari
+						OR = {
+							NOT = { has_trait = trait_asari_age }
+							prev = {
+								is_ruler = yes
+								leader_age <= 35
+							}
+						}
+					}
+				}
+				set_variable_to_random_value = {
+					which = leader_extra_age
+					min = 65
+					max = 85
+				}
+				add_age = leader_extra_age
+				clear_variable = leader_extra_age
+			}
+			every_pool_leader = {
+				limit = {
+					species = {
+						species_portrait = asari
+						NOT = { has_trait = trait_asari_age }
+					}
+				}
+				set_variable_to_random_value = {
+					which = leader_extra_age
+					min = 65
+					max = 85
+				}
+				add_age = leader_extra_age
+				clear_variable = leader_extra_age
+			}
+			every_envoy = {
+				limit = {
+					species = {
+						species_portrait = asari
+						NOT = { has_trait = trait_asari_age }
+					}
+				}
+				set_variable_to_random_value = {
+					which = leader_extra_age
+					min = 65
+					max = 85
+				}
+				add_age = leader_extra_age
+				clear_variable = leader_extra_age
+			}
+		}
+		# add the trait _after_ using its pabsense to determine whether to add age
 		every_galaxy_species = {
 			limit = {
 				species_portrait = asari
 				NOT = { has_trait = trait_asari_age }
 			}
-			change_species_characteristics = {
-				add_trait = trait_asari_age
+			change_species_characteristics = { add_trait = trait_asari_age }
+		}
+	}
+}
+
+# triggered by empire_init_capital_planet
+planet_event = {
+	id = asari_evt.2
+	hide_window = yes
+	is_triggered_only = yes
+	pre_triggers = { has_owner = yes }
+	trigger = { exists = from }
+	immediate = {
+		last_created_species = {
+			if = {
+				limit = {
+					NOT = { is_same_value = from }
+					species_portrait = asari
+				}
+				change_species_characteristics = { add_trait = trait_asari_age }
+			}
+		}
+		from = {
+			if = {
+				limit = { species_portrait = asari }
+				change_species_characteristics = { add_trait = trait_asari_age }
 			}
 		}
 	}

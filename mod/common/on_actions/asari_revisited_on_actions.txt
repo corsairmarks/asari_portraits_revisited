@@ -12,3 +12,12 @@ empire_init_add_technologies = {
 		asari_evt.4
 	}
 }
+
+# fired during empire initialization when starting a new game
+# this = planet, capital
+# from = species, founder
+empire_init_capital_planet = {
+	events = {
+		asari_evt.2
+	}
+}
